@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0px auto;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+}
+
+/* =====================common ======================*/
+
+.content {
+  width: 1115px;
+}
+
+/* =====================header========================= */
+
+.nav__btn--search {
+  padding: 10px;
+}
