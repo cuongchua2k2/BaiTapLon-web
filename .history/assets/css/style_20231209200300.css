@@ -299,11 +299,10 @@ header {
 }
 
 .product__list {
-  width: 100%;
   display: flex;
   /* justify-content: space-between; */
   flex-wrap: wrap;
-  gap: 25px 25px;
+  gap: 25px 20px;
 }
 
 .product__image {

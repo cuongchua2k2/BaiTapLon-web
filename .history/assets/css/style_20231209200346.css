@@ -303,7 +303,7 @@ header {
   display: flex;
   /* justify-content: space-between; */
   flex-wrap: wrap;
-  gap: 25px 25px;
+  gap: 25px 27px;
 }
 
 .product__image {

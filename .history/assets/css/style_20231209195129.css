@@ -299,11 +299,10 @@ header {
 }
 
 .product__list {
-  width: 100%;
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   flex-wrap: wrap;
-  gap: 25px 25px;
+  gap: 25px 20px;
 }
 
 .product__image {
@@ -553,25 +552,4 @@ header {
 
 .category {
   padding: 60px 0;
-}
-
-.category__nav {
-  display: flex;
-  align-items: center;
-  gap: 0 20px;
-  margin-bottom: 30px;
-}
-
-.category__nav__home {
-  color: #333;
-  font-size: 1.4rem;
-}
-
-.category__desc {
-  font-size: 1.4rem;
-  text-shadow: 1px 0 0 #1c5b41;
-}
-
-.category__nav__home:hover {
-  text-shadow: 1px 0 0 #1c5b41;
 }
