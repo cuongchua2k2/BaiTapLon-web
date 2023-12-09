@@ -18,7 +18,7 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
-  /* height: 5000px; */
+  height: 5000px;
 }
 
 /* =====================common ======================*/
@@ -29,7 +29,6 @@ a {
 
 .content {
   width: 1115px;
-  max-width: calc(100% - 48px);
   margin: 0px auto;
 }
 
@@ -58,6 +57,7 @@ header {
 #header {
   padding: 22px 0;
   background-color: #1c5b41;
+  width: 100%;
 }
 
 .nav {
@@ -228,37 +228,6 @@ header {
 .banner__image {
   width: 100%;
   object-fit: cover;
-  transform: translateX(-100%);
-  transition: ease 3s;
-}
-
-.banner__list {
-  display: flex;
-  overflow: hidden;
-}
-
-.banner__content {
-  position: relative;
-}
-
-.dot__list {
-  position: absolute;
-  bottom: -10px;
-  left: 50%;
-}
-
-.dot {
-  cursor: pointer;
-  display: inline-block;
-  height: 10px;
-  width: 10px;
-  border-radius: 50%;
-  background-color: #6c757d;
-  transition: background-color 0.6s ease;
-}
-
-.dot:hover {
-  background-color: var(--primary-color);
 }
 
 /* sale */

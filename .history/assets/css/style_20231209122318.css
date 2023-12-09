@@ -18,7 +18,7 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
-  /* height: 5000px; */
+  height: 5000px;
 }
 
 /* =====================common ======================*/
@@ -228,7 +228,7 @@ header {
 .banner__image {
   width: 100%;
   object-fit: cover;
-  transform: translateX(-100%);
+  /* transform: translateX(auto, -100%); */
   transition: ease 3s;
 }
 

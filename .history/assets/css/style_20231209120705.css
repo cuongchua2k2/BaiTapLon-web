@@ -18,7 +18,7 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
-  /* height: 5000px; */
+  height: 5000px;
 }
 
 /* =====================common ======================*/
@@ -226,10 +226,10 @@ header {
 }
 
 .banner__image {
+  position: relative;
+  left: 100%;
   width: 100%;
   object-fit: cover;
-  transform: translateX(-100%);
-  transition: ease 3s;
 }
 
 .banner__list {
