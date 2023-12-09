@@ -499,19 +499,3 @@ header {
   line-height: 35px;
   color: #aeaeae;
 }
-
-.menu__item > a:hover {
-  color: var(--primary-color);
-}
-
-.social-network {
-  margin-top: 15px;
-  display: flex;
-  gap: 10px;
-}
-
-.exclusive {
-  background-color: #aeaeae;
-  padding: 12px 0;
-  text-align: center;
-}

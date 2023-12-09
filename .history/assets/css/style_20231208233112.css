@@ -482,36 +482,11 @@ header {
   width: calc(60% - 35px);
   display: flex;
   justify-content: space-between;
-  gap: 0 20px;
 }
 
 .menu__title {
-  font-weight: 500;
-  font-size: 1.6rem;
+  font-weight: 800;
+  font-size: 16px;
   line-height: 35px;
   color: #ffffff;
-  margin-bottom: 20px;
-}
-
-.menu__item > a {
-  font-weight: 400;
-  font-size: 1.6rem;
-  line-height: 35px;
-  color: #aeaeae;
-}
-
-.menu__item > a:hover {
-  color: var(--primary-color);
-}
-
-.social-network {
-  margin-top: 15px;
-  display: flex;
-  gap: 10px;
-}
-
-.exclusive {
-  background-color: #aeaeae;
-  padding: 12px 0;
-  text-align: center;
 }

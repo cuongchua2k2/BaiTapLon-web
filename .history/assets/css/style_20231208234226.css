@@ -505,13 +505,5 @@ header {
 }
 
 .social-network {
-  margin-top: 15px;
-  display: flex;
-  gap: 10px;
-}
-
-.exclusive {
-  background-color: #aeaeae;
-  padding: 12px 0;
-  text-align: center;
+  margin-top: 20px;
 }

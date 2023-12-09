@@ -509,9 +509,3 @@ header {
   display: flex;
   gap: 10px;
 }
-
-.exclusive {
-  background-color: #aeaeae;
-  padding: 12px 0;
-  text-align: center;
-}

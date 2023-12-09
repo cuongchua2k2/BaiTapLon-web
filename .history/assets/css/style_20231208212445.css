@@ -250,9 +250,9 @@ header {
   position: relative;
   margin-bottom: 60px;
   font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+  font-weight: bold;
   letter-spacing: 0;
-  font-size: 4rem;
+  font-size: 3.2rem;
   color: #1c5b41;
 }
 
@@ -357,161 +357,8 @@ header {
   width: 100%;
   height: auto;
   border-radius: 10px;
-  margin-bottom: 20px;
 }
 
 .same-price__title {
   color: #fff;
-}
-
-.btn__same-price {
-  display: inline-block;
-  padding: 20px 70px;
-  font-weight: 700;
-  font-size: 1.8rem;
-  line-height: 22px;
-  color: #fff;
-  background: var(--primary-color);
-  border-radius: 10px;
-}
-
-.btn__same-price:hover {
-  opacity: 1;
-  background-color: #fff;
-  color: var(--primary-color);
-}
-
-.same-price__desc {
-  color: #fff;
-}
-
-.product__item {
-  position: relative;
-}
-
-.buy-product {
-  display: none;
-  width: 100%;
-  padding: 7px;
-  position: absolute;
-  top: 163px;
-  border-radius: 0 0 10px 10px;
-  background-color: #6c757d;
-}
-
-.product__item:hover .buy-product {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.buy-product:hover {
-  background-color: var(--primary-color);
-}
-
-.buy-product__desc {
-  color: #fff;
-  font-size: 1.4rem;
-  margin-left: 3px;
-}
-
-/* ==============good price====================== */
-
-.good-price {
-  background-color: #fffaf0;
-}
-
-/* ============all local brand */
-
-.brand__img {
-  width: 100%;
-  object-fit: cover;
-}
-
-/* ===========================footer======================= */
-
-.footer-body {
-  padding: 30px 0;
-  background-color: #000;
-}
-.footer__content {
-  display: flex;
-  align-items: flex-start;
-}
-
-.footer__left {
-  width: 40%;
-  margin-right: 35px;
-}
-
-.logo__desc {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 1.8rem;
-  line-height: 22px;
-  color: #fe9614;
-  margin-top: 15px;
-}
-
-.info-shop {
-  margin-top: 20px;
-  display: flex;
-  align-items: center;
-}
-
-.info__icon {
-  text-align: center;
-  width: 40px;
-  height: 40px;
-  padding: 8px;
-  line-height: 40px;
-  border-radius: 8px;
-  color: #fff;
-  background-color: var(--primary-color);
-}
-
-.info-shop__desc {
-  margin-left: 10px;
-  font-size: 1.5rem;
-  line-height: 1.6;
-  color: #ffffffd6;
-  font-weight: 300;
-}
-
-.footer__right {
-  width: calc(60% - 35px);
-  display: flex;
-  justify-content: space-between;
-  gap: 0 20px;
-}
-
-.menu__title {
-  font-weight: 500;
-  font-size: 1.6rem;
-  line-height: 35px;
-  color: #ffffff;
-  margin-bottom: 20px;
-}
-
-.menu__item > a {
-  font-weight: 400;
-  font-size: 1.6rem;
-  line-height: 35px;
-  color: #aeaeae;
-}
-
-.menu__item > a:hover {
-  color: var(--primary-color);
-}
-
-.social-network {
-  margin-top: 15px;
-  display: flex;
-  gap: 10px;
-}
-
-.exclusive {
-  background-color: #aeaeae;
-  padding: 12px 0;
-  text-align: center;
 }
