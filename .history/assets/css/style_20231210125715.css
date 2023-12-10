@@ -590,10 +590,8 @@ header {
 }
 
 .product-content {
-  font-family: "Montserrat", sans-serif;
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
   gap: 0 30px;
 }
 
@@ -603,7 +601,6 @@ header {
 }
 
 .product-big-image {
-  border-radius: 10px;
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -654,69 +651,9 @@ header {
 }
 
 .product__info__sub {
-  display: block;
-  width: 100%;
+  width: 70%;
   font-weight: 500;
   font-size: 1.6rem;
   line-height: 162.9%;
   color: #484848;
-}
-
-.cta-buy-product {
-  margin-top: 30px;
-}
-
-.choose-quantity {
-  display: inline-block;
-  border: 1px solid #cfcdc6;
-  border-collapse: collapse;
-  border-radius: 3px;
-}
-
-.minus-quantity,
-.add-quantity {
-  cursor: pointer;
-  padding: 10px 15px;
-  color: #ee4f83;
-  border: none;
-}
-
-.txt-quantity {
-  border: 1px solid #cfcdc6;
-  text-align: center;
-  outline: none;
-  border: none;
-}
-label {
-  font-size: 1.6rem;
-  color: #212529;
-}
-
-.button {
-  margin-top: 30px;
-}
-
-.buy-now,
-.add-cart {
-  border-radius: 10px;
-  font-size: 1.6rem;
-  max-width: 370px;
-  margin-top: 10px;
-  text-align: center;
-  display: block;
-  background-color: #1c5b41;
-  padding: 20px;
-}
-
-.add-cart {
-  background-color: #fff;
-  color: #1c5b41;
-  border: 1px solid #1c5b41;
-}
-
-.buy-now:hover,
-.add-cart:hover {
-  background-color: var(--primary-color);
-  color: #fff;
-  border: none;
 }

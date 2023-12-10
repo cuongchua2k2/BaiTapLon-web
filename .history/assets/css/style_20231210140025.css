@@ -603,7 +603,6 @@ header {
 }
 
 .product-big-image {
-  border-radius: 10px;
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -699,7 +698,6 @@ label {
 .buy-now,
 .add-cart {
   border-radius: 10px;
-  font-size: 1.6rem;
   max-width: 370px;
   margin-top: 10px;
   text-align: center;
@@ -718,5 +716,4 @@ label {
 .add-cart:hover {
   background-color: var(--primary-color);
   color: #fff;
-  border: none;
 }

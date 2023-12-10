@@ -1,4 +1,4 @@
-// thêm và giảm số lượng sản phẩm
+// thêm và trừ số lượng sản phẩm
 {
   function minusQuantity() {
     var result = document.getElementById("qty");
@@ -14,4 +14,3 @@
     return false;
   }
 }
-//
