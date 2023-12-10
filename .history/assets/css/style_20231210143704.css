@@ -416,7 +416,7 @@ header {
 }
 
 .same-price__desc {
-  color: #fff !important;
+  color: #fff; !important
 }
 
 .product__item {
