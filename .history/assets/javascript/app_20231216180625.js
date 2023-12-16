@@ -19,7 +19,7 @@
   document.addEventListener("DOMContentLoaded", function () {
     const slider = document.querySelector(".banner__list");
     const slides = document.querySelectorAll(".banner__image");
-
+    const dotItem = document.querySelectorAll(".dot");
     let currentIndex = 0;
 
     function updateSlider() {
@@ -28,6 +28,9 @@
 
       slides.forEach((slide, index) => {
         slide.classList.toggle("active", index === currentIndex);
+      });
+      dotItem[index].addEventListener("click", function () {
+        slideRun(index);
       });
     }
 

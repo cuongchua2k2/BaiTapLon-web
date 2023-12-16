@@ -17,26 +17,30 @@
 //transition banner
 {
   document.addEventListener("DOMContentLoaded", function () {
-    const slider = document.querySelector(".banner__list");
-    const slides = document.querySelectorAll(".banner__image");
-
     let currentIndex = 0;
+    const slides = document.querySelectorAll(".banner__image");
+    const dots = document.querySelectorAll(".dot");
 
-    function updateSlider() {
-      const newTransformValue = -currentIndex * 100 + "%";
-      slider.style.transform = `translateX(${newTransformValue})`;
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        slide.classList.toggle("active", i === index);
+      });
 
-      slides.forEach((slide, index) => {
-        slide.classList.toggle("active", index === currentIndex);
+      dots.forEach((dot, i) => {
+        dot.classList.toggle("active", i === index);
       });
     }
 
     function nextSlide() {
       currentIndex = (currentIndex + 1) % slides.length;
-      updateSlider();
+      showSlide(currentIndex);
     }
 
-    // Change slide every 3 seconds
-    setInterval(nextSlide, 3000);
+    function currentSlide(index) {
+      currentIndex = index - 1;
+      showSlide(currentIndex);
+    }
+
+    setInterval(nextSlide, 3000); // Chuyển đổi slide mỗi 3 giây
   });
 }

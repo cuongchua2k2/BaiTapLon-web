@@ -258,10 +258,6 @@ header {
   background-color: #6c757d;
 }
 
-.dot__active {
-  background-color: var(--primary-color);
-}
-
 .dot:hover {
   background-color: var(--primary-color);
 }

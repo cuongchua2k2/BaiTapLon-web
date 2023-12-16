@@ -19,7 +19,7 @@
   document.addEventListener("DOMContentLoaded", function () {
     const slider = document.querySelector(".banner__list");
     const slides = document.querySelectorAll(".banner__image");
-
+    const dotItem = document.querySelectorAll(".dot");
     let currentIndex = 0;
 
     function updateSlider() {
@@ -29,11 +29,17 @@
       slides.forEach((slide, index) => {
         slide.classList.toggle("active", index === currentIndex);
       });
+      dotItem[index].addEventListener("click", function () {
+        slideRun(index);
+      });
     }
 
     function nextSlide() {
       currentIndex = (currentIndex + 1) % slides.length;
       updateSlider();
+      const dotActive = document.querySelector(".dot__active");
+      dotActive.classList.remove("dot__active");
+      dotItem[index].classList.add("dot__active");
     }
 
     // Change slide every 3 seconds

@@ -227,13 +227,12 @@ header {
 }
 
 .banner__content {
-  position: relative;
-  overflow: hidden;
 }
 
 .banner__list {
   display: flex;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease;
+  overflow: hidden;
 }
 
 .banner__image {
@@ -245,8 +244,8 @@ header {
 
 .dot__list {
   position: absolute;
+  bottom: -8%;
   left: 50%;
-  bottom: 0;
 }
 
 .dot {
@@ -256,10 +255,6 @@ header {
   width: 10px;
   border-radius: 50%;
   background-color: #6c757d;
-}
-
-.dot__active {
-  background-color: var(--primary-color);
 }
 
 .dot:hover {

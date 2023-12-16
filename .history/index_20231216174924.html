@@ -107,9 +107,15 @@
             <img
               src="./assets/img/banner.png"
               alt="banner"
-              class="banner__image"
+              class="banner__image active"
             />
             <!-- banner 2 -->
+            <img
+              src="./assets/img/banner.png"
+              alt="banner"
+              class="banner__image"
+            />
+            <!-- banner 3 -->
             <img
               src="./assets/img/banner.png"
               alt="banner"
@@ -118,8 +124,9 @@
           </div>
           <!-- dot -->
           <div class="dot__list">
-            <span class="dot dot__active"></span>
-            <span class="dot"></span>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
           </div>
         </div>
       </div>

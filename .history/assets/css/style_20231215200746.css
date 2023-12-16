@@ -226,27 +226,28 @@ header {
   background-color: #9f9b8f;
 }
 
-.banner__content {
-  position: relative;
-  overflow: hidden;
+.banner__image {
+  width: 100%;
+  object-fit: cover;
+  /* transform: translateX(-100%);  */
+  transition: ease 3s;
 }
 
 .banner__list {
   display: flex;
-  transition: all 0.5s ease-in-out;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease;
 }
 
-.banner__image {
-  display: block;
-  width: 100%;
-  object-fit: cover;
-  background-size: cover;
+.banner__content {
+  position: relative;
 }
 
 .dot__list {
   position: absolute;
+  bottom: -8%;
   left: 50%;
-  bottom: 0;
 }
 
 .dot {
@@ -256,10 +257,6 @@ header {
   width: 10px;
   border-radius: 50%;
   background-color: #6c757d;
-}
-
-.dot__active {
-  background-color: var(--primary-color);
 }
 
 .dot:hover {
