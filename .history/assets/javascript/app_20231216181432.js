@@ -19,7 +19,7 @@
   document.addEventListener("DOMContentLoaded", function () {
     const slider = document.querySelector(".banner__list");
     const slides = document.querySelectorAll(".banner__image");
-
+    const dotItem = document.querySelectorAll(".dot");
     let currentIndex = 0;
 
     function updateSlider() {
@@ -30,10 +30,27 @@
         slide.classList.toggle("active", index === currentIndex);
       });
     }
+    let imgLeng = slides.length;
+    slides.forEach(function (image, index) {
+      image.style.left = index * 100 + "%";
+      dotItem[index].addEventListener("click", function () {
+        nextSlide(index);
+      });
+    });
+    function slider() {
+      index++;
+      if (index >= imgLeng) {
+        index = 0;
+      }
+      nextSlide(index);
+    }
 
-    function nextSlide() {
+    function nextSlide(index) {
       currentIndex = (currentIndex + 1) % slides.length;
       updateSlider();
+      const dotActive = document.querySelector(".dot__active");
+      dotActive.classList.remove(".dot__active");
+      dotItem[index].classList.add(".dot__active");
     }
 
     // Change slide every 3 seconds

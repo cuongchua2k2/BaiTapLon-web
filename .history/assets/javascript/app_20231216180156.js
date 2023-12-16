@@ -21,6 +21,17 @@
     const slides = document.querySelectorAll(".banner__image");
 
     let currentIndex = 0;
+    const dots = document.querySelectorAll(".dot");
+
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        slide.classList.toggle("active", i === index);
+      });
+
+      dots.forEach((dot, i) => {
+        dot.classList.toggle("active", i === index);
+      });
+    }
 
     function updateSlider() {
       const newTransformValue = -currentIndex * 100 + "%";

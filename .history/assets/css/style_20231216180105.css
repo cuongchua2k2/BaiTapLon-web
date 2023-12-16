@@ -258,7 +258,7 @@ header {
   background-color: #6c757d;
 }
 
-.dot__active {
+.active {
   background-color: var(--primary-color);
 }
 

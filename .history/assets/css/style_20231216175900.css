@@ -246,7 +246,6 @@ header {
 .dot__list {
   position: absolute;
   left: 50%;
-  bottom: 0;
 }
 
 .dot {
@@ -256,10 +255,6 @@ header {
   width: 10px;
   border-radius: 50%;
   background-color: #6c757d;
-}
-
-.dot__active {
-  background-color: var(--primary-color);
 }
 
 .dot:hover {
