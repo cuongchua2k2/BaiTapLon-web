@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0px auto;
+  color: #000;
+  outline: none;
+}
+
+/* ================common================ */
+
+a {
+  text-decoration: none;
+}
+
+/* ==================content============= */
+
+header {
+  height: 100px;
+  width: 100vw;
+  border-bottom: 2px solid #dddddd;
+  text-align: center;
+}

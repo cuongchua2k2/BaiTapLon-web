@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+
+  padding: 0;
+  color: #000;
+  outline: none;
+}
+
+/* ================common================ */
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* ==================content============= */
+
+header {
+  height: 100px;
+  width: 100vw;
+  text-align: center;
+  border-bottom: 2px solid #dddddd;
+}
+
+.admin-content {
+  padding-top: 50px;
+  display: flex;
+}
+
+.admin-content__left {
+  background-color: #dddddd;
+  width: 20%;
+  height: 100vh;
+  padding: 30px 0 0 12px;
+}
